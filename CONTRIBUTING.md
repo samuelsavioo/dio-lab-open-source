@@ -38,14 +38,12 @@
     > **Observação:** Você pode utilizar o comando `git push origin` para mandar as alterações sem precisar especificar a URL, desde que você tenha feito o passo **3**. 
 10. Crie um **Pull Request**.
 11. Sincronize seu fork com o repositório original: Antes de começar a trabalhar em uma nova funcionalidade, é importante garantir que seu fork local esteja atualizado com as últimas alterações do repositório original. Para fazer isso, siga estas etapas: bash
-Copiar código
-# Certifique-se de estar na branch main do seu fork
+
+ Certifique-se de estar na branch main do seu fork
 git checkout main
-
-# Adicione o repositório original como um remote chamado "upstream"
+ Adicione o repositório original como um remote chamado "upstream"
 git remote add upstream https://github.com/elidianaandrade/dio-lab-open-source.git
-
-# Faça o pull das últimas alterações do repositório original para o seu fork local
+ Faça o pull das últimas alterações do repositório original para o seu fork local
 git pull upstream main
 
 ## Convenção de Commits 
